@@ -1,0 +1,80 @@
+/* immagine di sfondo */
+body{
+background-image: url(background.jpg);
+background-size: cover;
+}
+
+/* sfondo principale */
+body>div{
+border-radius: 15px;
+width: 1000px;
+margin: auto;
+margin-top: 2%;
+background: rgba(0, 0, 0, 50%);
+padding: 5%;
+}
+
+/* immagine di logo */
+header img{
+width: 25%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+/* titolo principale */
+header h1{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+color: LimeGreen;
+margin: 0;
+}
+
+/* pannello di navigazione */
+nav{
+width: 100%;
+background: LimeGreen;
+display: inline-block;
+text-align: center;
+padding: 1%;
+}
+
+/* sottotitoli */
+main span{
+margin-top: 2%;
+display: inline-block;
+font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 25px;
+font-weight: bold;
+}
+
+/* contenuto */
+main p{
+  margin: 0;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+color: white;
+}
+
+/* percentuali di carica */
+.carica1{
+  border-radius: 5px;
+padding: 15px;
+width: 35%;
+background: SandyBrown;
+}
+
+.carica2{
+  border-radius: 5px;
+padding: 15px;
+width: 65%;
+background: LimeGreen;
+}
+
+.carica3{
+  border-radius: 5px;
+padding: 15px;
+width: 15%;
+background: IndianRed;
+}
